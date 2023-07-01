@@ -5,8 +5,24 @@
 </head>
 <body>
     <script>
-        let num =prompt("enter a no")
-    </script>
+        let num =prompt("enter a no");
+        let temp=num;
+        let count= temp.length;
+        let sum= 0;
+        while(temp>0){
+var digit=temp%10;
+sum+=digit**count;
+temp=parseInt(temp/10);
+        }
+
+if (sum==num){
+    console.log("armstrong no")
+}
+else{
+    console.log("not a armstrong no")
+}
+  
+        </script>
     
 </body>
 </html>
