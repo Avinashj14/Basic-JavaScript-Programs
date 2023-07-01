@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     // x=prompt("base of triangle")
+     //   y=prompt("height of triangle")
+     //   z=(x*y)/2
+      //  console.log(z) 
+
+        var x=prompt("side 1")
+        var y=prompt("side 2")
+        var z=prompt("side 3")
+        var s=(x+y+z)/2
+        var temp=s*(s-x)*(s-y)*(s-z)
+        var sqrt=Math.sqrt(temp)
+        console.log(sqrt)
+
+    </script>
+</body>
+</html>

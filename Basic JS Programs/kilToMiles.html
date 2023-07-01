@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function convert(){
+let xy= document.getElementById(x).value;
+alert(xy);
+            let km = xy * 0.621371;
+ documet.getElementById(y).innerHTML= km;
+        }
+    </script>
+</head>
+<body>
+    <input type="number" id="x">
+    <button onClick="convert()">Convert</button>
+<h1>Km= <span id="y"></span></h1>
+</body>
+</html> 
