@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <title>Prime No</title>
+</head>
+<body>
+    <script> 
+    let no=prompt("enter a no");
+    if(no==1){
+        alert("no is nither prime not composite");
+    }
+    else if(no<1){
+        alert("not a prime no ");
+    }
+    else{
+        for(i=2; i<no ; i++){
+            if (no%i==0 ){
+                alert("not a prime no") ;
+                break;
+            }else{
+                alert("it is a prime no");
+                break;
+        }
+        }
+    }
+
+    </script>
+    
+</body>
+</html>
