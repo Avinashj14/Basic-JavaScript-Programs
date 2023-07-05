@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove element from array</title>
+</head>
+<body>
+    <script>
+        let arr=[3,4,9,1,7,6]
+        let a =arr.filter(x=> x!=6)
+        console.log(a)
+
+
+      let remove =3;
+      let index= arr.indexOf(remove);
+      if(index>-1){
+       arr.splice(index,1)
+       
+      }
+      console.log(arr)
+
+    </script>
+</body>
+</html>
