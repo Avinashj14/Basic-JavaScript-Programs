@@ -6,6 +6,3 @@ function removeElement(arr, element) {
 console.log(removeElement([1,2,3,4,1,3,1],1))
 
 
-git add .
-git commit -m "."
-git push 
