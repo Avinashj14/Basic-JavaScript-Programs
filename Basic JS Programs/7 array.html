@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write a JavaScript function to get the nth largest element from an unsorted array.</titlne>
+</head>
+<body>
+    <script>
+        function nthlargest(arra,highest){
+			
+
+            let x= arra.sort((a,b)=>{
+              return( a-b)})	 
+                
+          return(x[highest-1])
+                }
+                
+        console.log(nthlargest([ 6,8,4,7,1,2,3,5], 4)); 
+    </script>
+    
+</body>
+</html>

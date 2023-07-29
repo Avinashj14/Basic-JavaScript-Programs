@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var string=prompt("enter a string");
+        var letter=prompt("enter a letter")
+        let str_Length=string.length;
+        let counter=0;
+        for (let i=0; i<str_Length;i++){
+            if(string[i]==letter){
+                counter++;
+            }
+        }
+        console.log(`${letter} in ${string} occur ${counter} timess `)
+    </script>
+</body>
+</html>
