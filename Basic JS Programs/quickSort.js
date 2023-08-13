@@ -3,7 +3,8 @@ function quickSort(arr) {
         return arr;
     }
 
-    const pivot = arr[Math.floor(arr.length / 2)];
+   // const pivot = arr[Math.floor(arr.length / 2)];//pivot is median
+    const pivot = arr[arr.length-1];//pivot is last
     const left = [];
     const right = [];
 
